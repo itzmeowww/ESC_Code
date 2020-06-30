@@ -25,6 +25,10 @@ html {
 }
 
 .body-container {
+  background-image: url("../pics/bg.jpg");
+  background-size: auto 100vh;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;
