@@ -24,7 +24,7 @@ let createUser = function (uid, username, email, status) {
     email: email,
     hasHint: false,
     hintId: "",
-    hasHint2: false,
+    hasHint2: true,
     pickHint2: false,
     status: status,
   });
