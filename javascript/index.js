@@ -53,8 +53,8 @@ let setUserHint = function (uid, hintId) {
 
   let luck = Math.round(Math.random() * 10);
   if (luck <= 3) {
-    updates["users/" + uid + "/hasHint2"] = true;
   }
+  updates["users/" + uid + "/hasHint2"] = true;
   database.ref().update(updates);
 };
 
